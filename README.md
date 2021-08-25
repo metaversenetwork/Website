@@ -2,6 +2,6 @@
 
 Supporting metaverse ventures.
 
-# Website URL
+# Coming soon.
 https://Metaverse.Network
 
