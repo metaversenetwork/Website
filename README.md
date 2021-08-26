@@ -1,7 +1,4 @@
-# Metaverse.Network
+A community network for metaverse initiatives.
 
-Supporting metaverse ventures.
-
-# Coming soon.
 https://Metaverse.Network
 
