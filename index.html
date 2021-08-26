@@ -12,7 +12,7 @@
         }
 
         section {
-            background: #0c0c0c;
+            background: #000000;
             color: white;
             border-radius: 1em;
             padding: 2em;
@@ -77,6 +77,22 @@
                 background-position: 10000px 0;
             }
         }
+        .column {
+            float: left;
+            width: 33.33%;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .partners{
+            margin: 0.1em;
+            margin-top: 2em;
+            margin-bottom: 2em;
+        }   
     </style>
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -130,7 +146,7 @@
     <div class='twinkling'></div>
     <div class='clouds'></div>
     <section>        
-        <div>
+        <div style="text-align: center;">
             <img src="assets/logo.png" width="300" />
         </div>
         <h1 style="color: rgb(255, 123, 12);">Education, Incubation & Investment</h1>
@@ -138,17 +154,33 @@
             Metaverse.Network is a community DAO network for metaverse initiatives.
         <ul>
             <li>Metaverse started to change our way of living since 2020.</li>
-            <li>Organisations -> where are you in the metaverse?</li>
-            <li>It is a highway of imagination and happiness.</li>
-            <li>For serious builders, we incubate or/and invest.</li>
+            <li>Organisations -> where are you in the highway of imagination?</li>
+            <li>For builders who seriously want to bring web3 to lives, we can help.</li>
         </ul>
         </p>
         <h1>Our Communities</h1>
         <ul>
             <li><a target="_blank" href="https://bit.country" style="color:#fff">Bit.Country</a></li>
-            <li><a target="_blank" href="https://www.industryconnect.org/metaverse-career-academy/" style="color:#fff">Metaverse Career Academy</a></li>            
+            <li><a target="_blank" href="https://mvp.studio" style="color:#fff">MVP Studio Incubator / Ventures</a></li>
+            <li><a target="_blank" href="https://www.industryconnect.org/metaverse-career-academy/" style="color:#fff">Metaverse Career Academy (Industry Connect)</a></li>
         </ul>
 
+        <div class="row partners">
+            <div class="column">
+                <a  href="https://mvp.studio/" target="_blank"> <img alt="mvp studio" src="./assets/partners/mvp.png" style="max-width: 150px;width: 100%;"/></a>
+            </div>
+            <div class="column">
+                <a  href="https://industryconnect.org" target="_blank"> <img alt="industry connect" src="./assets/partners/ic.png" style="max-width: 150px;width: 100%;"/></a>
+            </div>
+            <div class="column">
+                <a  href="https://bit.country/" target="_blank"> <img alt="bit country" src="./assets/partners/bc.png" style="max-width: 150px;width: 100%;"/></a>
+            </div>
+        </div>
+
+        <h1>Community Supporters</h1>
+        <div style="text-align: center;"/>
+            <img alt="Friends" src="./assets/partners/friends.jpg" style="max-width: 650px; width: 100%;">
+        </div>
         <footer id="footer">
             <h2>Contact us</h2>
             <p><a style="color: rgb(0, 177, 255);" href="mailto:hi@metaverse.network">hi@metaverse.network</a></p>
@@ -157,7 +189,7 @@
                 data-show-count="false">Follow @MetaverseNW</a>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-            <p style="color: rgb(255, 255, 255); text-align: right;">Explore with infinite imagination</p>
+            <p style="color: rgb(255, 255, 255); text-align: center;">Explore with infinite imagination</p>
 
         </footer>
     </section>
