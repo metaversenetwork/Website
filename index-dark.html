@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Softnio">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="website" />
+    <meta property="og:author" content="Metaverse Network" />
+    <meta property="og:section" content="" />
+    <meta property="og:url" content="https://metaverse.network/" />
+    <meta property="og:image" content="https://metaverse.network/assets/social.jpg" />
+    <meta property="og:image:alt" content="Metaverse.Network" />
+    <meta property="og:description" content="Metaverse.Network is a blockchain network for metaverses and games." />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:site" content="@metaverseNW" />
+    <meta property="og:title" content="Network for Metaverses and Games" />
+    <meta name="description" content="">
+    <!-- Fav Icon  -->
+    <link rel="shortcut icon" href="images/favicon.png">
+    <!-- Site Title  -->
+    <title>Metaverse Network</title>
+    <!-- Bundle and Base CSS -->
+    <link rel="stylesheet" href="assets/css/vendor.bundle.css?ver=1930">
+    <link rel="stylesheet" href="assets/css/style-dark.css?ver=1930" id="changeTheme">
+    <!-- Extra CSS -->
+    <link rel="stylesheet" href="assets/css/theme.css?ver=1930">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DBY842LBYB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DBY842LBYB');
+    </script>
+    <style>
+        .bg-theme-dark {
+            background-color: #000000 !important;
+        }
+
+        @import "susy";
+        @import "compass/reset";
+
+        .stars,
+        .twinkling,
+        .clouds {
+            position: absolute;
+            display: block;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .stars {
+            z-index: 1;
+            background: #000 url("./assets/stars.png") repeat top center;
+        }
+
+        .twinkling {
+            z-index: 1;
+            background: transparent url("./assets/twinkling.png") repeat top center;
+            animation: move-twink-back 200s linear infinite;
+        }
+
+        .clouds {
+            z-index: 2;
+            background: transparent url("./assets/clouds.png") repeat top center;
+            animation: move-clouds-back 200s linear infinite;
+        }
+
+        @keyframes move-twink-back {
+            from {
+                background-position: 0 0;
+            }
+
+            to {
+                background-position: -10000px 5000px;
+            }
+        }
+
+        @keyframes move-clouds-back {
+            from {
+                background-position: 0 0;
+            }
+
+            to {
+                background-position: 10000px 0;
+            }
+        }
+    </style>
+</head>
+
+<body class="nk-body body-wider theme-dark mode-onepage">
+    <div class="nk-wrap">
+        <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
+            <!-- Header @s -->
+            <div class="header-main">
+                <div class="header-container container">
+                    <div class="header-wrap">
+                        <!-- Logo @s -->
+                        <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".65">
+                            <a href="./" class="logo-link">
+                                <img class="logo-dark" src="logo.png" srcset="logo.png" alt="logo">
+                                <img class="logo-light" src="logo.png" srcset="logo.png" alt="logo">
+                            </a>
+                        </div>
+
+                        <!-- Menu Toogle @s -->
+                        <div class="header-nav-toggle">
+                            <a href="#" class="navbar-toggle" data-menu-toggle="main-menu">
+                                <div class="toggle-line">
+                                    <span></span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Menu @s -->
+                        <div class="header-navbar header-navbar-s1">
+                            <nav class="header-menu" id="main-menu">
+                                <ul class="menu-btns animated" data-animate="fadeInDown" data-delay=".85">
+                                    <li><a href="https://metaverse-network.gitbook.io/bit-country/"
+                                            class="btn btn-rg btn-auto btn-outline btn-grad on-bg-theme btn-round"><span>Docs</span></a>
+                                    </li>
+                                    <li><a href="https://github.com/bit-country/" data-toggle="modal"
+                                            data-target="#login-popup"
+                                            class="btn btn-rg btn-auto btn-outline btn-grad on-bg-theme btn-round"><span>Github</span></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div><!-- .header-navbar @e -->
+                    </div>
+                </div>
+            </div><!-- .header-main @e -->
+            <div class='stars'></div>
+            <div class='twinkling'></div>
+            <div class='clouds'></div>
+            <!-- Banner @s -->
+            <div class="header-banner bg-theme-dark">
+                <div class="nk-banner">
+                    <div class="banner banner-mask-fix banner-fs banner-single tc-light">
+                        <div class="banner-wrap">
+                            <div class="container">
+                                <div class="row align-items-center justify-content-center gutter-vr-30px">
+                                    <div class="col-lg-12">
+                                        <div class="banner-caption wide-auto text-center text-lg-left">
+                                            <div class="cpn-head mt-0">
+                                                <h1 class="title title-xl-2 title-semibold" data-animate="fadeInUp"
+                                                    data-delay="1.35">The Metaverse Perpetual Machine</h1>
+                                            </div>
+                                            <div class="cpn-text cpn-text-s1">
+                                                <p class="lead animated" data-animate="fadeInUp" data-delay="1.45">Metaverse.Network is a blockchain for metaverse and games.</p>
+                                            </div>
+                                            <div class="cpn-text cpn-text-s1">
+                                                <p class="lead animated" data-animate="fadeInUp" data-delay="1.45">We enabled WASM and Ethereum-compatible smart contract for developers to build dApps and games to run on our network. Developers can host their applications in a metaverse or dapp store on Bit.Country.</p>
+                                            </div>                                            
+                                            <div class="cpn-btns">
+                                                <ul class="btn-grp" data-animate="fadeInUp" data-delay="1.55">
+                                                    <li><a href="https://blockchain.metaverse.network/?rpc=wss://tewai-rpc.bit.country#/explorer"
+                                                            class="btn btn-md btn-grad btn-grad-alternet btn-round">Blockchain Explorer</a>
+                                                    </li>
+                                                    <li><a href="https://bit.country" class="btn btn-md btn-grad btn-round">Bit.Country App</a>
+                                                    </li>
+                                                    <li><a href="https://metaverse-network.gitbook.io/bit-country/" class="btn btn-md btn-grad btn-round">Docs</a>
+                                                    </li>                                                                                                        
+                                                </ul>
+                                            </div>
+                                            <div class="cpn-social">
+                                                <ul class="social">
+                                                    <li class="animated" data-animate="fadeInUp" data-delay="1.7"><a
+                                                            href="https://twitter.com/MetaverseNW"><em
+                                                                class="social-icon fab fa-twitter"></em></a>
+                                                    </li>
+                                                    <li class="animated" data-animate="fadeInUp" data-delay="1.75"><a
+                                                            href="https://www.youtube.com/channel/UCZsg2gFD4jCU742x5GwD6Mg"><em
+                                                                class="social-icon fab fa-youtube"></em></a>
+                                                    </li>
+                                                    <li class="animated" data-animate="fadeInUp" data-delay="1.8"><a
+                                                            href="https://github.com/bit-country"><em
+                                                                class="social-icon fab fa-github"></em></a>
+                                                    </li>
+                                                    <li class="animated" data-animate="fadeInUp" data-delay="1.9"><a
+                                                            href="https://bitcountry.medium.com/"><em
+                                                                class="social-icon fab fa-medium-m"></em></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div><!-- .col -->
+                                </div><!-- .row -->
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- .nk-banner -->
+                <div class="nk-ovm mask-c-dark shape-v mask-contain-bottom"></div>
+            </div>
+            <!-- .header-banner @e -->
+        </header>
+
+        <main class="nk-pages">
+            <section class="section tc-light bg-theme-dark" id="blocks">
+                <div class="container">
+                    <div class="container">
+                        <div class="row align-items-center justify-content-center gutter-vr-30px">
+                            <div class="col-lg-8">
+                                <div class="cpn-btns ">
+                                    <ul class="btn-grp align-items-center justify-content-center" data-animate="fadeInUp" data-delay="1.55">
+                                        <li><a href="https://blockchain.metaverse.network/?rpc=wss://tewai-rpc.bit.country#/explorer" class="btn btn-md btn-grad btn-round">Tewai on Testnet</a>
+                                        </li>
+                                        <li><a href="#" class="btn btn-md btn btn-round disabled">Pioneer on
+                                                Kusama</a>
+                                        </li>
+                                        <li><a href="#" class="btn btn-md btn btn-round disabled">Mainnet on
+                                                Polkadot</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row align-items-center justify-content-center gutter-vr-30px">
+                            <div class="col-lg-12">                                
+                                <div id="root"></div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </main>
+        <footer class="nk-footer bg-theme-alt">
+            <div class="section section-footer section-s tc-light bg-transparent">
+                <div class="container">
+                    <!-- Block @s -->
+                    <div class="nk-block block-footer">
+                        <div class="row">
+                            <div class="col">
+                                <div class="wgs wgs-text text-center mb-3">
+                                    <ul class="social pdb-m justify-content-center">
+
+                                        <li class="animated" data-animate="fadeInUp" data-delay="0.7"><a
+                                                href="https://twitter.com/MetaverseNW"><em
+                                                    class="social-icon fab fa-twitter"></em></a>
+                                        </li>
+                                        <li class="animated" data-animate="fadeInUp" data-delay="0.75"><a
+                                                href="https://www.youtube.com/channel/UCZsg2gFD4jCU742x5GwD6Mg"><em
+                                                    class="social-icon fab fa-youtube"></em></a>
+                                        </li>
+                                        <li class="animated" data-animate="fadeInUp" data-delay="0.8"><a
+                                                href="https://github.com/bit-country"><em
+                                                    class="social-icon fab fa-github"></em></a>
+                                        </li>
+                                        <li class="animated" data-animate="fadeInUp" data-delay="0.9"><a
+                                                href="https://bitcountry.medium.com/"><em
+                                                    class="social-icon fab fa-medium-m"></em></a>
+                                        </li>
+
+                                    </ul>
+                                    <div class="copyright-text copyright-text-s3 pdt-m">
+                                        <p><span class="d-sm-block">Metaverse.Network & Foundation. e: hi@metaverse.network </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- .block @e -->
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/jquery.bundle.js?ver=1930"></script>
+    <script src="assets/js/scripts.js?ver=1930"></script>
+
+    <link href="main.e70314ae.css" rel="stylesheet">
+    </head>
+    <style>
+        :root {
+            --font-mono: 0.9em Consolas, monaco, "Ubuntu Mono", "Liberation Mono", "Courier New", Courier, monospace;
+            --font-sans: 1em "-apple-system", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            --font-weight-bold: 700;
+            --font-weight-light: 200;
+            --font-weight-normal: 400;
+            --width-full: 1750px;
+            --width-half: 875px;
+            --bg-menu-hover: rgba(255, 255, 255, 0.2);
+            --border-input: rgba(34, 36, 38, .15);
+        }
+
+        [data-theme="dark"] {
+            --bg-input: #38393f;
+            --bg-input-error: #48393f;
+            --bg-inverse: rgba(78, 78, 78, 0.66);
+            --bg-menu: #26272c;
+            --bg-page: #26272c;
+            --bg-table: #3b3d3f;
+            --bg-tabs: #38393f;
+            --bg-toggle: #58595f;
+            --bg-sidebar: #1a1b20;
+            --border-table: #343536;
+            --border-tabs: #343536;
+            --color-checkbox: rgba(78, 78, 78, 0.66);
+            --color-error: rgba(255, 83, 83, 0.8);
+            --color-label: rgba(244, 242, 240, 0.45);
+            --color-summary: rgba(244, 242, 240, 0.75);
+            --color-table-foot: rgba(254, 240, 240, 0.66);
+            --color-table-head: rgba(254, 240, 240, 0.66);
+            --color-text: rgba(244, 242, 240, 0.9);
+        }
+
+        [data-theme="light"] {
+            --bg-input: #ffffff;
+            --bg-input-error: #fff6f6;
+            --bg-inverse: rgba(244, 242, 240, 0.91);
+            --bg-menu: #ffffff;
+            --bg-page: #f5f3f1;
+            --bg-table: #ffffff;
+            --bg-tabs: #ffffff;
+            --bg-toggle: #e4e5e6;
+            --bg-sidebar: #fafafa;
+            --border-table: #f1efed;
+            --border-tabs: #f1efed;
+            --color-checkbox: rgba(34, 36, 38, 0.15);
+            --color-error: rgba(139, 0, 0);
+            --color-label: rgba(78, 78, 78, 0.66);
+            --color-summary: rgba(0, 0, 0, 0.6);
+            --color-table-foot: rgba(78, 78, 78, 0.66);
+            --color-table-head: rgba(78, 78, 78, 0.66);
+            --color-text: #4e4e4e;
+        }
+
+        .ui--Tabs {
+
+            display: none;
+        }
+
+        .highlight--bg {
+            display: none;
+        }
+
+        .explorer--query {
+            display: none;
+        }
+
+        header {
+            margin: 0 !important;
+        }
+    </style>
+    <script src="main.b459c933.js"></script>
+
+</body>
+
+</html>
