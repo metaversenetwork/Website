@@ -2108,7 +2108,7 @@ hr { position: relative; z-index: 5; }
   .link-break .icon-circle { margin-left: 0; margin-bottom: 0; } }
 
 /** 03.03 Title */
-.title { position: relative; font-size: 1.75rem; }
+.title { position: relative; font-size: 4rem; }
 
 .title:not(:last-child) { margin-bottom: 1.25rem; }
 
@@ -2222,7 +2222,7 @@ a .title { transition: all .4s; }
 
 .title-sub { color: #d87032; }
 
-@media (min-width: 576px) { .title { font-size: 2.25rem; }
+@media (min-width: 576px) { .title { font-size: 4rem; }
   .title:not(:last-child) { margin-bottom: 1.25rem; }
   .title small { font-size: 50%; margin-top: 0.75rem; }
   .title-xxs { font-size: 12px; letter-spacing: 0.1em; }
@@ -2244,7 +2244,7 @@ a .title { transition: all .4s; }
   .title-s4 { font-size: 2.3rem; }
   .title-s5.title-sm { font-size: 0.9rem; }
   .title-s5.title-sm span:first-child { font-size: 1.25rem; }
-  .title-xl-2 { font-size: 1.8rem !important; }
+  .title-xl-2 { font-size: 4rem !important; }
   .title-xxl-grad { font-size: 140px; } }
 
 @media (min-width: 768px) { .title-xl-2 { font-size: 4rem !important; }
@@ -3961,7 +3961,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .cpn > *:first-child { margin-top: 0; }
 
-.cpn-head .title { font-size: 3rem; line-height: 1.5; }
+.cpn-head .title { font-size: 4rem; line-height: 1.5; }
 
 .cpn-head .title-lg { line-height: 1.3; font-weight: 700; }
 
@@ -4060,7 +4060,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
   .cpn-action .cpn-btns, .cpn-action .cpn-links { padding-top: 0; }
   .cpn-btns + .cpn-links { padding-top: 20px; }
   .cpn-links + .cpn-btns { padding-top: 20px; }
-  .cpn-head .title { font-size: 2.125rem; }
+  .cpn-head .title { font-size: 4rem; }
   .cpn-head .title-sm { font-size: 1.85rem; }
   .cpn-head .title-md { font-size: 2.6rem; }
   .cpn-head .title-lg { font-size: 4rem; }
