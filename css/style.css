@@ -870,7 +870,7 @@ footer {
 @media print, (min-width: 768px) {
   .section-project {
     height: 2200px;
-    background: #000 url(../img/project_bg.jpg) 50% 0 no-repeat;
+    background: #000 url(../img/project_bg2.png) 50% 0 no-repeat;
     position: relative;
     padding: 10vw 0;
   }
@@ -1176,7 +1176,7 @@ footer {
   .section-project {
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
-    background: url(../img/sp/project_bg.jpg) 50% 0 no-repeat;
+    background: url(../img/sp/project_bg2.png) 50% 0 no-repeat;
     background-size: cover;
   }
   .section-project .project-overlay {
